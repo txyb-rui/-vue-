@@ -1,0 +1,16 @@
+1.安装cli
+  把目录调整到想要创建项目的地方，比如我想在D盘中的vuefile这个文件中创建我的项目，则
+      先输入：d: 
+      然后输入：cd vuefile
+      最后输入：npm install -g @vue/cli
+  等待一段时间后安装完成
+2.创建项目
+  cmd目录还是要在vuefile下
+      输入：vue create vue-test (vue-test只是一个名称，可以换成别的，但是最好是英文)
+  他可能会让你进行选择，选择vue3和npm后，等待创建即可
+
+  我们进到刚才创建的目录
+      cd vue-test
+  然后执行
+      npm run serve
+  出现一个端口，CTRL单击这个端口看到默认页面就成功了
